@@ -88,7 +88,7 @@ float map_float_value(float value, float x_min, float x_max, float y_min, float 
 
 void draw_background(void)
 {
-  tft.text(1, 1, 1, CYAN, BLACK, "HP303 SHT30 + ESP8266");
+  tft.text(1, 1, 1, CYAN, BLACK, "HP303B DHT12 ESP8266");
   
   tft.Gauge(31, 45, 30, false, Upper, RED);
   tft.H_Line(1, 61, 45, RED);
